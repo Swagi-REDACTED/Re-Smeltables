@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.blupillcosby.resmeltables.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AbstractCookingRecipeMixin",
+    "RecipeManagerMixin",
+    "RecipeMapMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
